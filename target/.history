@@ -1,0 +1,7 @@
+run
+sbt
+console
+complile
+run
+compile
+test
