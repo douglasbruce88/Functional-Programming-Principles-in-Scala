@@ -69,7 +69,7 @@ import org.scalatest.junit.JUnitRunner
    *    [info]   2 did not equal 3 (ListsSuite.scala:67)
    * }}}
    *
-   * We recommend to always use the `===` equality operator when writing tests.
+   * We recommend to always use the === equality operator when writing tests.
    */
   test("details why one plus one is not three") {
     assert(1 + 1 === 2) // Fix me, please!
@@ -121,6 +121,11 @@ import org.scalatest.junit.JUnitRunner
     assert(max(List(3, 7, 2)) === 7)
   }
 
+  test("max throws java.util.NoSuchElementException if `xs` is an empty list") {
+    intercept[NoSuchElementException] {
+      max(List.empty)
+    }
+  }
 
 
 }
