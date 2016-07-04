@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160622115356"/>
+		date="20160704135740"/>
 	<dependencies>
 		<module organisation="org.scalatest" name="scalatest_2.11">
 			<revision name="2.2.6" status="release" pubdate="20160105195437" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -15,10 +15,10 @@
 				<metadata-artifact status="no" details="" size="4895" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scalatest\scalatest_2.11\ivy-2.2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.pom"/>
 				<caller organisation="default" name="scala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scalatest_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1439140" time="611" location="C:\Users\dbruce02\.ivy2\cache\org.scalatest\scalatest_2.11\srcs\scalatest_2.11-2.2.6-sources.jar">
+					<artifact name="scalatest_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1439140" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scalatest\scalatest_2.11\srcs\scalatest_2.11-2.2.6-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar"/>
 					</artifact>
-					<artifact name="scalatest_2.11" type="jar" ext="jar" status="successful" details="" size="7439504" time="336" location="C:\Users\dbruce02\.ivy2\cache\org.scalatest\scalatest_2.11\jars\scalatest_2.11-2.2.6.jar">
+					<artifact name="scalatest_2.11" type="jar" ext="jar" status="no" details="" size="7439504" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scalatest\scalatest_2.11\jars\scalatest_2.11-2.2.6.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar"/>
 					</artifact>
 				</artifacts>
@@ -30,10 +30,10 @@
 				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
 				<caller organisation="default" name="scala$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109171" time="169" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.2-sources.jar">
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109171" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar"/>
 					</artifact>
-					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="successful" details="" size="648678" time="136" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\jars\scala-xml_2.11-1.0.2.jar">
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="648678" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\jars\scala-xml_2.11-1.0.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
 					</artifact>
 				</artifacts>
@@ -48,7 +48,7 @@
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4576443" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.7.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar"/>
 					</artifact>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="561516" time="181" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.7-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561516" time="0" location="C:\Users\dbruce02\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.7-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar"/>
 					</artifact>
 				</artifacts>
