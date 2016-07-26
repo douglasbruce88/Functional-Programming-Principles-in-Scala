@@ -1,0 +1,14 @@
+compile
+run
+test
+run
+test
+run
+last compile@run
+last compile:run
+cd f
+exit
+test
+compile
+run
+exit

@@ -1,0 +1,6 @@
+run
+test
+compile
+cd patmet
+compile
+exit
